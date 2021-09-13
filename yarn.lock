@@ -3852,6 +3852,11 @@ jest-worker@^26.5.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
+js-carousel@^1.3.7:
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/js-carousel/-/js-carousel-1.3.7.tgz#fe85d32cf1fd421492c655d4e6d3ab39f94285ce"
+  integrity sha512-+RzPgMJQUebBLVQ5wkjxPcFu2khK9nJEiOPCmp9E6SH+dR5kxtH51jh3Lej5b7Cp7D3g7UZD0msnU0UpwiGO8g==
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"

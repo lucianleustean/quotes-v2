@@ -11,3 +11,18 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+import { jscarousel } from 'js-carousel'
+
+window.onload = function() {
+  window.jscarousel(
+    // targetCarousel
+    document.getElementById('carousel-container'),
+    // carousel config
+    {
+      animationSpeed: 500,
+      itemDuration: 1500,
+      swipeThreshold: 150
+    }
+  );
+};

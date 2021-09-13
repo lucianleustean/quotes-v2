@@ -2,13 +2,23 @@
 
   <!-- Header -->
   <div id="header">
-
-    <!-- Inner -->
     <div class="inner">
       <header>
         <h1>Quotes App</h1>
         <hr />
-        <p><%= @random_quote.quote %></p>
+        <p><%= @random_quotes.sample.quote %></p>
       </header>
     </div>
+  </div>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div id="carousel-container">
+      <% @random_quotes.each do |quote| %>
+        <article>
+          <p><%= quote.quote %></p>
+        </article>
+      <% end %>
+    </div>
+  </section>
 </div>

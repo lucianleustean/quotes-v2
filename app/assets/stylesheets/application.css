@@ -12,6 +12,6 @@
  *
  *= require_tree .
  *= require_self
- #= require themes/helios
- #= require quotes
+ *= require themes/helios
+ *= require quotes
  */

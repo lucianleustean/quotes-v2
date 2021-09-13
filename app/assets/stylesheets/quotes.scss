@@ -1,0 +1,11 @@
+#carousel-container article {
+  height: 10em;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #carousel-container article {
+    height: 15em;
+    margin: 0;
+  }
+}
