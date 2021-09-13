@@ -1,0 +1,9 @@
+# Document classes and non-namespace modules.
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 15
